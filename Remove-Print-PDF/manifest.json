@@ -1,0 +1,21 @@
+﻿{
+  "name": "Remove & Print PDF",
+  "description": "Print Web Page to PDF but don't want some images or contents? try this!",
+  "version": "2.1",
+  "manifest_version": 2,
+  "homepage_url": "http://uuware.com/",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "32": "icon-small.png",
+    "48": "icon_48.png",
+    "128": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icon-small.png"
+  },
+  "permissions": [
+  "tabs", "\u003Call_urls\u003E", "*://*/*"
+  ]
+}
